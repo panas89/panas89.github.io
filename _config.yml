@@ -24,7 +24,7 @@ github_username:  panas89
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-lanyon
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
