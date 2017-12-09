@@ -1,0 +1,30 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: page
+---
+
+<head>
+    <script>
+      function picOn(){
+        document.getElementById('myImg').src = './public/me2.gif';
+      }
+      function picOff(){
+        document.getElementById('myImg').src = './public/me2.jpg';
+      }
+    </script>
+</head>
+
+<body style="text-align:center;">
+
+<div id="holder">
+<img id="myImg" src="./public/me2.jpg" onmouseover="picOn()" onmouseout="setTimeout(picOff,3000)" />
+</div>
+
+<p id="home">Hi, I am a <a href="http://mii.ucla.edu/people/ppetousis/" target="_blank">PhD student</a> at the <a href="http://mii.ucla.edu/" target="_blank">Medical Imaging Informatics Laboratory</a>.</p>
+
+<p>My research interests involve the development of predictive Probabilistic Graphical Models (PGM) from observational clinical data. I work with Partially Observable Markov Decision Processes (POMDPs) and Inverse Reinforcement Learning (IRL). Additional research interests are machine learning, Deep Learning and how to teach AI to do machine learning.
+</p>
+<p>I currenlty work in the domain of lung cancer screening.</p>
+</body>
