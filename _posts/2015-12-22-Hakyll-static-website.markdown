@@ -68,17 +68,17 @@ To do it we used [Hakyll](http://jaspervdj.be/hakyll/index.html) a Haskell libra
   4. Copy all the contents of your site generated in the previous step of this post.
 
   5. Finally upload your site on GitHub (this methodology was inspired and partially adopted by Linus Arver Using Hakyll with GitHub [wesite](http://funloop.org/post/2013-01-11-using-hakyll.html)).
-    - Move into the <code>_site</code> directory.
+      - Move into the <code>_site</code> directory.
 
-    - Initialize a <code>git</code> repository
+      - Initialize a <code>git</code> repository
 
-    - Add all files in that directory.
+      - Add all files in that directory.
 
-    - Commit your changes.
+      - Commit your changes.
 
-    - Specify the remote handle.
+      - Specify the remote handle.
 
-    - Push your commits to the origin server.
+      - Push your commits to the origin server.
 
 <pre>
     <code>
